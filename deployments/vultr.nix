@@ -12,6 +12,7 @@
     imports = [
       ../providers/vultr/base.nix
       ../services/quassel.nix
+      ../services/hydra
     ];
 
     services.fail2ban.enable = true;
